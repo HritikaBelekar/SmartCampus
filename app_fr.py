@@ -6,6 +6,7 @@ from streamlit_option_menu import option_menu
 
 
 image = Image.open('/mount/src/smartcampus/Architechture_Face_Recog.png')
+smartcampusimage = Image.open('/mount/src/smartcampus/SmartCampus.jpg')
 
 with st.sidebar:
     
@@ -24,7 +25,8 @@ if (selected == 'About Project'):
     st.title('Smart Campus Surveillance & Guidance System')
     st.markdown('Aim of the project is to build a machine learning based Smart Campus Surveillance model which checks whether students are attending \
         the lectures or bunking the lectures based on the camera feed received from the camera installed in the campus. It will send a alert notification to respective HOD or Class Teacher about the bunks done by student')
-    
+    st.image(smartcampusimage, caption='')
+  
 
 if (selected == 'Project Contributors'):
     st.title("1. Sanjana Marode")
