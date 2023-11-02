@@ -14,7 +14,7 @@ with st.sidebar:
                           
                           ['About Project',
                            'Project Contributors',
-                           'Architechture Diagram',
+                           'Architecture Diagram',
                            'Face Recognition'
                             ],
                           icons=['activity','activity','activity','activity'],
@@ -34,7 +34,7 @@ if (selected == 'Project Contributors'):
     st.title("3. Pallavi Kurve")
 
 if (selected == 'Architecture Diagram'):
-    st.image(smartcampusimage, caption='')
+    st.image(archimage, caption='')
     # st.markdown("Architecture Diagram of the Entire Project")
 
 
