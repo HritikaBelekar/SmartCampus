@@ -5,7 +5,7 @@ from PIL import Image
 from streamlit_option_menu import option_menu
 
 
-image = Image.open('/mount/src/smartcampus/Architechture_Face_Recog.png')
+archimage = Image.open('/mount/src/smartcampus/Architechture_Face_Recog.jpg')
 smartcampusimage = Image.open('/mount/src/smartcampus/SmartCampus.jpg')
 
 with st.sidebar:
@@ -34,7 +34,7 @@ if (selected == 'Project Contributors'):
     st.title("3. Pallavi Kurve")
 
 if (selected == 'Architecture Diagram'):
-    st.image(image, caption='')
+    st.image(archimage, caption='')
     # st.markdown("Architecture Diagram of the Entire Project")
 
 
