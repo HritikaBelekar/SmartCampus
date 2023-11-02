@@ -24,7 +24,6 @@ if (selected == 'About Project'):
     st.title('Smart Campus Surveillance & Guidance System')
     st.markdown('Aim of the project is to build a machine learning based Smart Campus Surveillance model which checks whether students are attending \
         the lectures or bunking the lectures based on the camera feed received from the camera installed in the campus. It will send a alert notification to respective HOD or Class Teacher about the bunks done by student')
-    st.image(image, caption='Architecture Diagram')
     
 
 if (selected == 'Project Contributors'):
@@ -33,7 +32,9 @@ if (selected == 'Project Contributors'):
     st.title("3. Pallavi Kurve")
 
 if (selected == 'Architecture Diagram'):
-    st.markdown("")
+    st.markdown("Architecture Diagram of the Entire Project")
+    st.image(image, caption='Architecture Diagram')
+
 
     # page title
 # Heart Disease Prediction Page
