@@ -32,7 +32,7 @@ if (selected == 'Project Contributors'):
     st.title("3. Pallavi Kurve")
 
 if (selected == 'Architecture Diagram'):
-    st.image(image, caption='Architecture Diagram')
+    st.image(image, caption='')
     # st.markdown("Architecture Diagram of the Entire Project")
 
 
