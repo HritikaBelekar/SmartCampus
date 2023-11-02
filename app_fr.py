@@ -5,7 +5,7 @@ from PIL import Image
 from streamlit_option_menu import option_menu
 
 
-image = Image.open('/mount/src/Smart_Campus/Architechture_Face_Recog.png')
+image = Image.open('/mount/src/SmartCampus/Architechture_Face_Recog.png')
 
 with st.sidebar:
     
