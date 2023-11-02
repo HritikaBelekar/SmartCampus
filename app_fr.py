@@ -10,7 +10,7 @@ smartcampusimage = Image.open('/mount/src/smartcampus/SmartCampus.jpg')
 
 with st.sidebar:
     
-    selected = option_menu('Face Recognition Module',
+    selected = option_menu('Smart Campus Surveillance Module',
                           
                           ['About Project',
                            'Project Contributors',
