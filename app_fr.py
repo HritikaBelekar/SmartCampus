@@ -33,7 +33,7 @@ if (selected == 'Project Contributors'):
     st.title("2. Hritika Belekar")
     st.title("3. Pallavi Kurve")
 
-if (selected == 'Architecture Diagram'):
+#if (selected == 'Architecture Diagram'):
     #st.image(archimage, caption='Architecture Diagram for Face Recognition Module')
     # st.markdown("Architecture Diagram of the Entire Project")
 
