@@ -10,7 +10,7 @@ from pywebio.input import *
 from pywebio.output import *
 from pywebio.session import *
 import time
-
+import cv2
 
 # archimage = Image.open('/mount/src/smartcampus/Architechture_Face_Recog.jpg')
 # smartcampusimage = Image.open('/mount/src/smartcampus/SmartCampus.jpg')
