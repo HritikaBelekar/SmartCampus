@@ -55,7 +55,7 @@ if (selected == 'Face Recognition'):
     st.title("Upload Video File")
 
     # Create a file uploader widget
-    uploaded_file = st.file_uploader("Upload a file", type=["txt", "csv", "pdf", "jpg", "png"])
+    uploaded_file = st.file_uploader("Upload a file", type=["txt", "csv", "pdf", "jpg", "png","mp4","avi"])
 
     if st.button("Run Face Recognition Module"):
         # Display a spinner while some processing is happening
