@@ -45,25 +45,6 @@ if (selected == 'Architecture Diagram'):
     # st.markdown("Architecture Diagram of the Entire Project")
     pass
 
-    # page title
-# Heart Disease Prediction Page
-if (selected == 'Face Recognition'):
-
-# Set a title for your app
-    st.title('Smart Campus Surveillance & Guidance System')
-
-    st.title("Upload Video File")
-
-    # Create a file uploader widget
-    uploaded_file = st.file_uploader("Upload a file", type=["txt", "csv", "pdf", "jpg", "png","mp4","avi"])
-
-    if st.button("Run Face Recognition Module"):
-        # Display a spinner while some processing is happening
-        with st.spinner("Model Processing..."):
-            # Simulate some time-consuming task (e.g., sleep for a few seconds)
-            # time.sleep(3)
-            identify_face()
-    # Remove the spinner after the task is done
 
 
 import pandas as pd
@@ -95,10 +76,6 @@ def check_db_trigger():
         break  # This will exit the loop once the API is triggered
 
     print('Loop finished without triggering the API')
-
-# Call the function
-# check_db_trigger()
-
 
 def identify_face():
     student_name='Hrtika Belekar'
@@ -185,3 +162,29 @@ def identify_face():
     # All done!
     input_movie.release()
     cv2.destroyAllWindows()
+    # page title
+# Heart Disease Prediction Page
+if (selected == 'Face Recognition'):
+
+# Set a title for your app
+st.title('Smart Campus Surveillance & Guidance System')
+
+st.title("Upload Video File")
+
+# Create a file uploader widget
+uploaded_file = st.file_uploader("Upload a file", type=["txt", "csv", "pdf", "jpg", "png","mp4","avi"])
+
+if st.button("Run Face Recognition Module"):
+    # Display a spinner while some processing is happening
+    with st.spinner("Model Processing..."):
+        # Simulate some time-consuming task (e.g., sleep for a few seconds)
+        # time.sleep(3)
+        identify_face()
+# Remove the spinner after the task is done
+
+
+
+# Call the function
+# check_db_trigger()
+
+
