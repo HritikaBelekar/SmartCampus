@@ -43,7 +43,7 @@ if (selected == 'Project Contributors'):
 if (selected == 'Architecture Diagram'):
     #st.image(archimage, caption='Architecture Diagram for Face Recognition Module')
     # st.markdown("Architecture Diagram of the Entire Project")
-
+    pass
 
     # page title
 # Heart Disease Prediction Page
