@@ -167,18 +167,18 @@ def identify_face():
 if (selected == 'Face Recognition'):
 
 # Set a title for your app
-st.title('Smart Campus Surveillance & Guidance System')
+    st.title('Smart Campus Surveillance & Guidance System')
 
-st.title("Upload Video File")
+    st.title("Upload Video File")
 
-# Create a file uploader widget
-uploaded_file = st.file_uploader("Upload a file", type=["txt", "csv", "pdf", "jpg", "png","mp4","avi"])
+    # Create a file uploader widget
+    uploaded_file = st.file_uploader("Upload a file", type=["txt", "csv", "pdf", "jpg", "png","mp4","avi"])
 
-if st.button("Run Face Recognition Module"):
-    # Display a spinner while some processing is happening
-    with st.spinner("Model Processing..."):
-        # Simulate some time-consuming task (e.g., sleep for a few seconds)
-        # time.sleep(3)
+    if st.button("Run Face Recognition Module"):
+        # Display a spinner while some processing is happening
+        # with st.spinner("Model Processing..."):
+            # Simulate some time-consuming task (e.g., sleep for a few seconds)
+            # time.sleep(3)
         identify_face()
 # Remove the spinner after the task is done
 
