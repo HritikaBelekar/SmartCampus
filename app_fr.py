@@ -12,8 +12,8 @@ from pywebio.session import *
 import time
 
 
-archimage = Image.open('/mount/src/smartcampus/Architechture_Face_Recog.jpg')
-smartcampusimage = Image.open('/mount/src/smartcampus/SmartCampus.jpg')
+# archimage = Image.open('/mount/src/smartcampus/Architechture_Face_Recog.jpg')
+# smartcampusimage = Image.open('/mount/src/smartcampus/SmartCampus.jpg')
 
 with st.sidebar:
     
@@ -32,7 +32,7 @@ if (selected == 'About Project'):
     st.title('Smart Campus Surveillance & Guidance System')
     st.markdown('Aim of the project is to build a machine learning based Smart Campus Surveillance model which checks whether students are attending \
         the lectures or bunking the lectures based on the camera feed received from the camera installed in the campus. It will send a alert notification to respective HOD or Class Teacher about the bunks done by student')
-    st.image(smartcampusimage, caption='')
+    #st.image(smartcampusimage, caption='')
   
 
 if (selected == 'Project Contributors'):
@@ -41,7 +41,7 @@ if (selected == 'Project Contributors'):
     st.title("3. Pallavi Kurve")
 
 if (selected == 'Architecture Diagram'):
-    st.image(archimage, caption='Architecture Diagram for Face Recognition Module')
+    #st.image(archimage, caption='Architecture Diagram for Face Recognition Module')
     # st.markdown("Architecture Diagram of the Entire Project")
 
 
@@ -61,7 +61,8 @@ if (selected == 'Face Recognition'):
         # Display a spinner while some processing is happening
         with st.spinner("Model Processing..."):
             # Simulate some time-consuming task (e.g., sleep for a few seconds)
-            time.sleep(3)
+            # time.sleep(3)
+            identify_face()
     # Remove the spinner after the task is done
 
 
