@@ -5,3 +5,4 @@ pandas
 pushbullet.py==0.9.1
 pywebio==1.8.2
 opencv-python
+face-recognition
